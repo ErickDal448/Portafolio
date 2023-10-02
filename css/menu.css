@@ -1,0 +1,45 @@
+/*Sección Menu*/
+
+section.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--cor-de-fondo-2);
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+}
+
+.menu__header h3{
+    font-weight: bold;
+}
+
+section.menu nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.menu__list__item{
+    padding: 1rem;
+    margin: 0px 1rem;
+    font-size: 15px;
+}
+
+.menu__list__item__contato{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 5rem;
+}
+
+.menu__list__item  :hover, .menu__list__item__contato  :hover{
+    color:goldenrod;
+}

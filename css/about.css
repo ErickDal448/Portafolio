@@ -1,0 +1,12 @@
+/*Sección About*/
+
+section.about{
+    background-color: var(--cor-de-fondo-2);
+    padding: 4rem 30rem 4rem 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about__title{
+    font-weight: 700;
+}
