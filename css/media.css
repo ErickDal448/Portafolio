@@ -5,29 +5,68 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
 
     /* Menú */
-    
+    .menu__list__item{
+        display: none;
+    }
     /*title*/
-    
-    /*Skills*/
-    
-    /*Hobbies*/
-    
-    /*Formación Académica*/
-    
-    /*Experiencia Profesional*/
-    
+    .title__profile{
+        width: 200px; 
+        height: 200px;
+    }
+    .title__bio{
+        font-size: 30px;
     }
     
+    .title__subsection{
+        font-size: 15px;
+    }
+    /*about*/
+    section.about{
+        padding: 4rem;
+        text-align: justify;
+    }
+    /*Skills Hobbies*/
+    .skills__box, .hobbies__box{
+        width: 25%;
+    }
+    
+    /*Formación Académica*/
+    .academic__courses__item__img{
+        padding: 2rem;
+    }
+    
+    /*Experiencia Profesional*/
+    .experience__img{
+        width: 30rem;
+        
+    }
+    .experience__box{
+        flex-direction: column;
+    }
+    .experience__box:nth-child(even){
+        flex-direction: column;
+    }
+
+    /* Contacto */
+    .formcontato__img{
+        display: none;
+    }
+}
+
+
+    
     /*Mobile*/
-    @media (min-width: 425px) {
+@media (max-width: 500px) {
     
     /*Menu*/
     
     /*Titulo*/
-    
+    .title__div{
+        flex-direction:column;
+    }
     /*Sección sobre mi*/
     
     /*Skills*/
@@ -37,9 +76,13 @@ Utiliza las referencias de los breakpoints @media abajo */
     /*Formación Académica*/
     
     /*Experiencia Profesional*/
+    .experience__img{
+        width: 20rem;
+        
+    }
     
      /*Contacto*/
     
     /*Footer*/
     
-    }
+}

@@ -2,7 +2,7 @@
 /*Sección Title*/
 
 section.title{
-    margin: 5rem;
+    padding: 5rem;
 }
 
 .title__div{
@@ -13,11 +13,16 @@ section.title{
 }
 
 .title__profile{
+    width: 368px; 
+    height: 368px;
     border-radius: 200px;
     box-shadow: 5px 5px 10px  var(--cor-de-shadow);
+    transition: 0.5s;
 }
 
 .title__profile:hover{
+    width: 400px; 
+    height: 400px;
     box-shadow: 5px 5px 10px goldenrod;
 }
 
